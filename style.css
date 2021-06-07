@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&family=Padauk:wght@400;700&display=swap');
+body {
+    background-color: burlywood;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', 'Padauk', sans-serif;
+}
+
+.main {
+    background-color: #00d1ff;
+    border-radius: 20px;
+    width: 25%;
+    margin: 50px auto;
+}
+
+.todo {
+    padding: 10px;
+}
+
+.list {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0;
+}
+
+.list-item {
+    list-style-type: none;
+    margin: 3px;
+    padding: 15px;
+    color: #00d1ff;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.list-item span {
+    display: block;
+    width: 80%;
+}
+
+.list-item:hover {
+    background-color: rgb(228, 219, 219);
+}
+
+.add-box {
+    margin: 20px 10px;
+}
+
+.title {
+    margin: 10px 0;
+    color: white;
+}
+
+.input {
+    /* margin-left: 10px; */
+    /* margin-bottom: 35px; */
+    background-color: #00d1ff;
+    border: 1px solid #00d1ff;
+    color: black;
+    font-size: 20px;
+    padding: 10px 0;
+    flex-grow: 1;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.btn-add {
+    background-color: #00d1ff;
+    color: white;
+    border: 1px solid #00d1ff;
+    /* margin-left: 60px; */
+}
+
+.btn-del {
+    border: 1px solid rgb(228, 219, 219);
+    color: red;
+    background-color: rgb(228, 219, 219);
+}
+
+.btn-edit {
+    border: 1px solid rgb(228, 219, 219);
+    color: green;
+    background-color: rgb(228, 219, 219);
+}
+
+.input-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px 10px 10px;
+}
+
+.list-btn-group {
+    width: 50px;
+}
+
+.add-icon {
+    font-size: 80px;
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        width: 80%;
+    }
+}

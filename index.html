@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="todo">
+            <div class="add-box" id="addBox">
+                <div class="input-area">
+                    <div class="">
+                        <h1 class="title"> To Do List</h1>
+                        <input type="text" class="input" id="input" placeholder="Say Something......">
+                    </div>
+                    <button id="addBtn" class="btn-add" onclick="addList()"><i class="fas fa-plus-circle add-icon"></i></button>
+                </div>
+            </div>
+        </div>
+        <ul class="list" id="list">
+        </ul>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
